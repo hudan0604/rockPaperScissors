@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ResultsSectionComponent } from './results-section.component';
+import { PlaySectionComponent } from './play-section.component';
 
-describe('ResultsSectionComponent', () => {
-  let component: ResultsSectionComponent;
-  let fixture: ComponentFixture<ResultsSectionComponent>;
+describe('PlaySectionComponent', () => {
+  let component: PlaySectionComponent;
+  let fixture: ComponentFixture<PlaySectionComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ResultsSectionComponent]
+      imports: [PlaySectionComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(ResultsSectionComponent);
+    fixture = TestBed.createComponent(PlaySectionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

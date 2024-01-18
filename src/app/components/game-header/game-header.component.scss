@@ -1,0 +1,15 @@
+.header {
+  border: 1px solid #fff;
+  width: 400px;
+  padding: 8px;
+  color: #fff;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+  &__gameTitle {
+    font-family: Barlow-bold, sans-serif;
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,14 @@
+:host {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+
+  .rulesTrigger {
+    font-family: Barlow-regular, "sans-serif";
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 3px 22px;
+  }
+}

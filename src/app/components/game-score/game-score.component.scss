@@ -1,0 +1,23 @@
+:host {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  background: #fff;
+  border-radius: 6px;
+  height: inherit;
+  padding: 8px;
+
+  .score__title {
+    color: rgb(64, 64, 240);
+    font-family: Barlow-regular, sans-serif;
+  }
+
+  .score__value {
+    color: #595454;
+    font-family: Barlow-bold, sans-serif;
+    font-size: 39px;
+  }
+}

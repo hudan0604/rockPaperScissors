@@ -5,8 +5,8 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './game-score.component.html',
-  styleUrl: './game-score.component.scss'
+  styleUrl: './game-score.component.scss',
 })
 export class GameScoreComponent {
-
+  public score = 0;
 }
